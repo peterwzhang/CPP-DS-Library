@@ -10,6 +10,7 @@ This repository contains the following data structures:
 
 ## Notes
 These data structures do not contain checking/catching for many errors if they are used inproperly, so misusing them can lead to seg faults and other errors.
+A collection of test files used to verify the correctness of these data structures have been included in the TestFiles folder.
 
 ## Usage
 1. TODO
