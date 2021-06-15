@@ -28,7 +28,7 @@ template <typename keytype, typename valuetype>
 class RBTree {
    public:
     RBTree();
-    RBTree(keytype k[], valuetype V[], int s);
+    RBTree(keytype k[], valuetype v[], int s);
     RBTree(const RBTree &rhs);
     RBTree &operator=(const RBTree &rhs);
     ~RBTree();
@@ -63,8 +63,8 @@ class RBTree {
     RBTNode<keytype, valuetype> *treeMax(RBTNode<keytype, valuetype> *r);
     RBTNode<keytype, valuetype> *selectNode(RBTNode<keytype, valuetype> *x,
                                             int i);
-    RBTNode<keytype, valuetype> *findNext(RBTNode<keytype, valuetype> *r);
-    RBTNode<keytype, valuetype> *findPrev(RBTNode<keytype, valuetype> *r);
+    RBTNode<keytype, valuetype> *findNext(RBTNode<keytype, valuetype> *n);
+    RBTNode<keytype, valuetype> *findPrev(RBTNode<keytype, valuetype> *n);
     void printPreorder(RBTNode<keytype, valuetype> *r);
     void printInorder(RBTNode<keytype, valuetype> *r);
     void printPostorder(RBTNode<keytype, valuetype> *r);
